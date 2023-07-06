@@ -1,0 +1,11 @@
+
+object MyClass {
+   
+    def main(args: Array[String]) {
+        print(totaltime()+" minutes");
+    }
+    def totaltime() : Double ={
+       (2.0/8) + (3.0/7) + (2.0/8)
+       
+    }
+}

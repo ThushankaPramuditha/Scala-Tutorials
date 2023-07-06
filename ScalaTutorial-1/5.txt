@@ -1,0 +1,11 @@
+
+object MyClass {
+   
+    def main(args: Array[String]) {
+        print(totaltime(8.0 ,7.0 , 2,3,2));
+    }
+    def totaltime(v1:Double ,v2:Double , s1:Double , s2:Double , s3:Double  ) : Double ={
+       ( s1.toDouble/v1) +(s2.toDouble/v2) +(s3.toDouble/v1)
+       
+    }
+}

@@ -1,0 +1,9 @@
+object MyClass {
+
+   def main(args: Array[String]) {
+      print(disk(5));
+   }
+   def disk(r:Int) : Double ={
+   3.14*r*r
+   }
+}

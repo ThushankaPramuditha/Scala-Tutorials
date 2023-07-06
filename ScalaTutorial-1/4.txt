@@ -1,0 +1,10 @@
+
+object MyClass {
+   
+    def main(args: Array[String]) {
+        print(wholesale(24.95));
+    }
+    def wholesale(p:Double) : Double ={
+        (p*0.6 +3)*50 +(p*0.6 + 0.75)*10
+    }
+}

@@ -1,0 +1,10 @@
+
+object MyClass {
+   
+    def main(args: Array[String]) {
+        print(volume(5));
+    }
+    def volume(r:Int) : Double ={
+         (4.0/3)*3.14*r*r*r
+    }
+}
