@@ -1,1 +1,23 @@
+  def caesarDecrypt(ciphertext: String, shift: Int): String = {
+    caesarEncrypt(ciphertext, -shift)
+  }
+
+
+  def cipher(data: String, func: (String, Int) => String, shift: Int): String = {
+    func(data, shift)
+  }
+
+  def main(args: Array[String]): Unit = {
+    val plaintext = "absz"
+    val shift = 1
+
+
+    val encryptedText = caesarEncrypt(plaintext, shift)
+    println("Encrypted: " + encryptedText)
+
+   
+    val decryptedText = caesarDecrypt(encryptedText, shift)
+    println("Decrypted: " + decryptedText)
+  }
+}
 
